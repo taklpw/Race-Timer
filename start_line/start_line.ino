@@ -9,7 +9,6 @@
  *           This software uses the following hardware:
  *           - Arduino Nano V3
  *           - NRF24L01+PA+LNA for wireless communication
- *           - Sharp GP2Y0A02YK0F IR distance sensor for detecting on the finish line
  *           - Push Button for starting the race
  *           - Red LED for visual cues
  *           - 8Ohm 1W speaker for audible starting sound
@@ -42,7 +41,7 @@ unsigned long endTime = 0;
 float secondsVal = 0;
 
 /**
- * @name setup
+ * @name Setup
  * @brief Initialises wireless settings, serial settings, and digital inputs/outputs. Runs once.
  * @param void
  * @return void
@@ -59,7 +58,7 @@ void setup(){
 }
 
 /**
- * @name Main loop
+ * @name Main Loop
  * @brief Runs continually
  * @param void
  * @return void
