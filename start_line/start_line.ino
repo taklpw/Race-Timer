@@ -86,7 +86,7 @@ void loop(){
     Serial.print("Result: ");
     Serial.print(secondsVal);
     Serial.print(" Seconds");
-    Serial.print("\n\n");
+    Serial.print("\n\n\r");
   }
   
   delay(15);
